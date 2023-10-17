@@ -5,7 +5,7 @@
 
 🌏 Cайт : http://codbox.ru
 
-👦   Автор : [ A K ](https://www.instagram.com/webtheory/ "Instagram page")
+👦 Автор : [ A K ](https://www.instagram.com/webtheory/ "Instagram page")
 
 ## Стартовый репозиторий .
 
@@ -15,7 +15,7 @@
 
 Сборка - `<b>`Gulp 4`</b>`
 
-Запуск конкретной задачи: `npm start имя_задачи` (список задач  в `gulpfile.js`)
+Запуск конкретной задачи: `npm start имя_задачи` (список задач в `gulpfile.js`)
 
 Остановка: `<kbd>`Ctrl + C`</kbd>`
 
@@ -23,7 +23,7 @@
 
 `<svg class="custom-class" width="14px" height="14px"><use xlink:href="img/sprite-svg.svg#img_name"></use></svg>`
 
-Или можете сделать include в верху сайта  ниже тега `Body`
+Или можете сделать include в верху сайта ниже тега `Body`
 
 `@@include('img/sprite-svg.svg')`
 
@@ -53,7 +53,6 @@ HTML
 
 `<i class="icon icon-home"></i>`
 
-
 ## Обновить зависимости
 
 Удаляем:
@@ -62,4 +61,4 @@ package-lock.json
 package.json
 
 Устанавливаем:
-npm install gulp gulp-sass sass gulp-rename gulp-sourcemaps gulp-postcss css-mqpacker gulp-replace del@3.0.0 browser-sync gulp-gh-pages gulp-newer gulp-uglify gulp-concat gulp-cheerio gulp-svgstore gulp-svgmin gulp-notify gulp-plumber gulp-cleancss gulp-file-include gulp-html-beautify gulp.spritesmith merge-stream vinyl-buffernpm install gulp gulp-sass sass gulp-rename gulp-sourcemaps gulp-postcss css-mqpacker gulp-replace del@3.0.0 browser-sync gulp-gh-pages gulp-newer gulp-uglify gulp-concat gulp-cheerio gulp-svgstore gulp-svgmin gulp-notify gulp-plumber gulp-cleancss gulp-file-include gulp-html-beautify gulp.spritesmith merge-stream vinyl-buffer
+npm install gulp gulp-sass sass gulp-rename gulp-sourcemaps gulp-postcss css-mqpacker gulp-replace del@3.0.0 browser-sync gulp-gh-pages gulp-newer gulp-uglify gulp-concat gulp-cheerio gulp-svgstore gulp-svgmin gulp-notify gulp-file-include gulp-html-beautify gulp.spritesmith merge-stream vinyl-buffernpm install gulp gulp-sass sass gulp-rename gulp-sourcemaps gulp-postcss css-mqpacker gulp-replace del@3.0.0 browser-sync gulp-gh-pages gulp-newer gulp-uglify gulp-concat gulp-cheerio gulp-svgstore gulp-svgmin gulp-notify gulp-plumber gulp-cleancss gulp-file-include gulp-html-beautify gulp.spritesmith merge-stream vinyl-buffer
