@@ -1,0 +1,140 @@
+.row {
+	margin-bottom: -58px;
+  }
+  
+  .advantages .slick-dots {
+	margin-bottom: 60px;
+	margin-top: 15px;
+  }
+  
+  .advantage {
+	text-align: center;
+	margin-top: 10px;
+  }
+  
+  .advantage__img-box {
+	width: 93px;
+	height: 93px;
+	background-color: #89c249;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0 auto 40px;
+  }
+  
+  .advantage__img-box::before {
+	content: "";
+	position: absolute;
+	border: 1px solid #6c7188;
+	left: -10px;
+	right: -10px;
+	top: -10px;
+	bottom: -10px;
+	border-radius: 50%;
+  }
+  
+  .advantage__text-box {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 124.5%;
+  }
+  
+  .slick-dots {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .slick-dots > li {
+	margin: 0 13px;
+	list-style: none;
+	height: 8px;
+	line-height: 1;
+	font-size: 0;
+  }
+  
+  .slick-dots > li.slick-active button {
+	background-color: #fff;
+  }
+  
+  .slick-dots button {
+	font-size: 0;
+	padding: 0px;
+	border-radius: 50%;
+	opacity: 0.9;
+	border: 2px solid #ffffff;
+	width: 8px;
+	height: 8px;
+	background: transparent;
+	outline: none;
+  }
+  
+  section {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	max-width: 1920px;
+  }
+  
+  section:last-of-type {
+	margin-bottom: 56px;
+  }
+  
+  section.container-fluid {
+	padding: 90px 85px 100px;
+	position: relative;
+  }
+  
+  section.container-fluid:before {
+	content: "";
+	border-radius: 20px;
+	position: absolute;
+	left: 42px;
+	right: 42px;
+	top: 0;
+	height: 100%;
+	background-color: #363a4d;
+	z-index: -1;
+  }
+  
+  section:nth-child(odd) .template-title:after {
+	background-color: #e58d35;
+  }
+  
+  .template-title {
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	padding-bottom: 18px;
+	margin-bottom: 50px;
+	/*type 3*/
+  }
+  
+  .template-title h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 124.5%;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+  }
+  
+  .template-title h3 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 1.25;
+  }
+  
+  .template-title:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: calc(100% - 2px);
+	transform: translate(-50%, 0);
+	width: 85px;
+	height: 2px;
+	background-color: #e58d35;
+  }
