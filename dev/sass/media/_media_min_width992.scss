@@ -1,4 +1,21 @@
 @media screen and (min-width: 992px) {
+	section {
+		padding-right: 40px;
+		padding-left: 40px;
+	  }
+	  section.container-fluid::before {
+		border-radius: 20px;
+	  }
+	  .first-screen .container-xxl {
+		border-radius: 20px;
+		padding: 0 92px;
+	  }
+	  .first-screen-slider__title {
+		max-width: 473px;
+	  }
+	  .first-screen-slider__subtitle {
+		max-width: 345px;
+	  }
 	.advantage {
 		margin-bottom: 58px;
 	  }
