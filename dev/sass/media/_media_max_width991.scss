@@ -29,4 +29,80 @@
 	  max-width: 295px;
 	  justify-content: center;
 	}
+	section,
+  .first-screen {
+    padding: 55px 0 60px !important;
+    position: relative;
+  }
+  section {
+    margin-bottom: 60px;
+  }
+  section.container-fluid {
+    padding: 55px 20px 60px !important;
+    position: relative;
+  }
+  section.container-fluid:before {
+    left: 0 !important;
+    right: 0 !important;
+  }
+  section.container-fluid > .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  div.container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .row {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .first-screen .container {
+    padding: 0 28px;
+    text-align: center;
+    z-index: 1;
+  }
+  .first-screen .container-xxl {
+    min-height: calc(100vh - 74px);
+    position: relative;
+  }
+  .first-screen .container-xxl::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5411764706);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .first-screen-slider__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .first-screen-slider__subtitle {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  .first-screen .btn-lg {
+    white-space: nowrap;
+  }
+  .first-screen .btn-lg .icon {
+    margin: 0 -14px 0 35px;
+  }
+  .advantages .slick-dots {
+    margin-bottom: 60px;
+    margin-top: 15px;
+  }
+  .advantage {
+    padding: 0 20px;
+    margin-bottom: 13px;
+  }
+  div.template-title {
+    margin-bottom: 35px;
+  }
+  div.template-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 124.5%;
+  }
   }

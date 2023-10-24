@@ -16,6 +16,16 @@
 	  .first-screen-slider__subtitle {
 		max-width: 345px;
 	  }
+	  .template-title {
+		/*type 2*/
+	  }
+	  .template-title.text-left {
+		text-align: left;
+	  }
+	  .template-title.text-left:after {
+		left: 0;
+		transform: none;
+	  }
 	.advantage {
 		margin-bottom: 58px;
 	  }
