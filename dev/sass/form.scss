@@ -1,0 +1,153 @@
+section.calculation {
+	margin-bottom: 0;
+  }
+  
+  .calculation .container {
+	position: relative;
+  }
+  
+  .calculation-row {
+	display: flex;
+  }
+  
+  .calculation__img-box {
+	width: 100%;
+	margin-left: -30px;
+	margin-top: -180px;
+	align-self: flex-end;
+  }
+  
+  .calculation__img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .calculation-form {
+	max-width: 626px;
+	margin-bottom: 60px;
+	width: 100%;
+	background-color: #363a4d;
+	border-radius: 20px;
+	padding: 50px 35px 42px;
+	align-self: flex-start;
+  }
+  
+  .calculation-form .input-box {
+	margin: 0 15px 20px;
+  }
+  
+  .calculation-form .input-box.has-checkbox {
+	margin-bottom: 8px;
+  }
+  
+  .calculation-form .input-box.has-checkbox label {
+	display: flex;
+	align-items: center;
+  }
+  
+  .calculation-form [type="file"] {
+	display: none;
+  }
+  
+  .calculation-form #file-name {
+	margin: 15px 0 12px;
+	font-size: 15px;
+	line-height: 126%;
+  }
+  
+  .calculation-form [for="myfile"] {
+	border-radius: 10px;
+	border: 1px dashed rgba(255, 255, 255, 0.2588235294);
+	text-align: center;
+	padding: 11px;
+	cursor: pointer;
+	transition: 0.2s;
+  }
+  
+  .calculation-form [for="myfile"]:hover {
+	color: #89c249;
+	border-color: #89c249;
+  }
+  
+  .calculation-form .btn {
+	max-width: 251px;
+	padding: 19.6px 29px;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+	margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+	-moz-appearance: textfield;
+  }
+  
+  .input-row {
+	display: flex;
+  }
+  
+  .input-column {
+	width: 100%;
+  }
+  
+  .input-box {
+	margin-bottom: 17px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .input-box label {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 126%;
+	margin-bottom: 6px;
+  }
+  
+  .input-box input {
+	border-radius: 10px;
+	padding: 16px 10px;
+	border: none;
+	transition: 0.3s;
+  }
+  
+  .input-box input:focus-visible {
+	outline: none;
+  }
+  
+  .input-box input:hover {
+	box-shadow: 0px 0px 4px 2px #e58d35;
+  }
+  
+  .input-box input:focus {
+	box-shadow: 0px 0px 4px 2px #89c249;
+  }
+  
+  .padding {
+	padding-top: 26px; /*input-column */
+  }
+  
+  .has-checkbox {
+	margin-bottom: 6px; /*input-box*/
+  }
+
+  .template-title.col-lg-7 {
+	margin-bottom: 35px;
+  }
+  
+  .template-title.col-lg-7 h2:after {
+	content: "";
+	position: static;
+	display: inline-block;
+	width: 85px;
+	height: 2px;
+	margin: 10px 10px 10px 19px;
+	background-color: #89c249;
+  }
+  
+  .template-title.col-lg-7:after {
+	display: none;
+  }
+  

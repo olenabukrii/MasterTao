@@ -31,7 +31,7 @@
 	}
 	section,
   .first-screen {
-    padding: 55px 0 60px !important;
+    //padding: 55px 0 60px !important;
     position: relative;
   }
   section {
@@ -88,6 +88,52 @@
   }
   .first-screen .btn-lg .icon {
     margin: 0 -14px 0 35px;
+  }
+  .calculation__img-box {
+    display: none;
+  }
+  div.template-title {
+    margin-bottom: 35px;
+  }
+  div.template-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 124.5%;
+  }
+  div.template-title.col-lg-7.text-left {
+    text-align: center;
+  }
+  div.template-title.col-lg-7.text-left h2:after {
+    display: none;
+  }
+  div.template-title.col-lg-7.text-left:after {
+    left: 50%;
+    top: calc(100% - 2px);
+    transform: translate(-50%, 0);
+    display: block;
+  }
+  .calculation {
+    margin-bottom: 60px;
+  }
+  .calculation-row {
+    justify-content: center;
+  }
+  .input-column-button {
+    display: flex;
+    justify-content: center;
+  }
+  .input-column-button .input-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .input-column-button .btn {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+  .input-row {
+    display: block;
   }
   .advantages .slick-dots {
     margin-bottom: 60px;

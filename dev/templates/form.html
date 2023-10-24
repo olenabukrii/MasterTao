@@ -1,0 +1,123 @@
+<section class="calculation">
+	<div class="container">
+	  <div class="template-title col-lg-7 text-left">
+		<h2>Получить рассчет стоимости доставки вашего груза</h2>
+	  </div>
+	  <div class="calculation-row">
+		<form class="calculation-form">
+		  <div class="input-row">
+			<div class="input-column">
+			  <div class="input-box">
+				<label for="fname">Категория товара:</label>
+				<input
+				  type="text"
+				  id="fname"
+				  name="fname"
+				  placeholder="Выберите категорию"
+				/>
+			  </div>
+			  <div class="input-box">
+				<label for="weight">Вес груза (кг):</label>
+				<input
+				  type="number"
+				  id="weight"
+				  name="weight"
+				  placeholder="Введите вес"
+				  min="1"
+				  max="5"
+				/>
+			  </div>
+			</div>
+			<div class="input-column">
+			  <div class="input-box">
+				<label for="price">Стоимость груза:</label>
+				<input
+				  type="text"
+				  id="price"
+				  name="price"
+				  placeholder="Введите стоимость"
+				  min="1"
+				  max="5"
+				/>
+			  </div>
+			  <div class="input-box">
+				<label for="volume">Объем груза (м<sup>3</sup>):</label>
+				<input
+				  type="number"
+				  id="volume"
+				  name="volume"
+				  placeholder="Введите объем"
+				  min="1"
+				  max="5"
+				/>
+			  </div>
+			</div>
+		  </div>
+		  <div class="input-row">
+			<div class="input-column">
+			  <div class="input-box">
+				<input
+				  type="checkbox"
+				  id="insurance"
+				  name="insurance"
+				  value="insurance"
+				/>
+				<label for="insurance">Страховка</label>
+			  </div>
+			  <div class="input-box">
+				<input
+				  type="checkbox"
+				  id="customs-clearance"
+				  name="customs-clearance"
+				  value="customs-clearance"
+				/>
+				<label for="customs-clearance">Таможенное оформление</label>
+			  </div>
+			</div>
+			<div class="input-column">
+			  <div class="input-box">
+				<label for="invoice">Код ТН ВЭД:</label>
+				<input
+				  type="text"
+				  id="invoice"
+				  name="invoice"
+				  placeholder="Введите код"
+				  min="1"
+				  max="5"
+				/>
+			  </div>
+			</div>
+		  </div>
+		  <div class="input-row">
+			<div class="input-column">
+			  <div class="input-box">
+				<div id="file-name"></div>
+				<label for="myfile">Загрузить фото товара</label>
+				<input type="file" id="myfile" name="myfile" />
+			  </div>
+			</div>
+		  </div>
+		  <div class="input-row">
+			<div class="input-column input-column-button">
+			  <div class="input-box">
+				<button type="button" class="btn btn-primary btn-lg">
+				  Следующий шаг<img
+					src="assets/img/arrow-circle-right.svg"
+					class="icon"
+					alt="icon"
+				  />
+				</button>
+			  </div>
+			</div>
+		  </div>
+		</form>
+		<div class="calculation__img-box">
+		  <img
+			class="calculation__img"
+			src="assets/img/calculation-decoration.png"
+			alt="decoration"
+		  />
+		</div>
+	  </div>
+	</div>
+  </section>
