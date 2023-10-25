@@ -31,19 +31,18 @@
 	}
 	section,
   .first-screen {
-    //padding: 55px 0 60px !important;
     position: relative;
   }
   section {
     margin-bottom: 60px;
   }
   section.container-fluid {
-    padding: 55px 20px 60px !important;
+    padding: 55px 20px 60px;
     position: relative;
   }
   section.container-fluid:before {
-    left: 0 !important;
-    right: 0 !important;
+    left: 0;
+    right: 0;
   }
   section.container-fluid > .container {
     padding-left: 0;
