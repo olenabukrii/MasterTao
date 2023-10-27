@@ -22,10 +22,12 @@
 	  .template-title {
 		/*type 2*/
 	  }
-	  .template-title.text-left {
+	  .template-title.text-left,
+	  .template-title.col-lg-7 {
 		text-align: left;
 	  }
-	  .template-title.text-left:after {
+	  .template-title.text-left:after,
+	  .template-title.col-lg-7:after {
 		left: 0;
 		transform: none;
 	  }
