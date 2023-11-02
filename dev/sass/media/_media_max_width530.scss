@@ -1,3 +1,11 @@
 @media screen and (max-width: 530px) {
-	
+	section.container-fluid {
+		margin-bottom: 54px;
+	  }
+	  .slide-img-box img {
+		min-height: 230px;
+	  }
+	  div.slide-buttons .btn {
+		padding: 13px 2px;
+	  }
 }

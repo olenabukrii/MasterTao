@@ -60,7 +60,9 @@ $(document).ready(function() {
 		  {
 			breakpoint: 890,
 			settings: {
-			  slidesToShow: 1,
+				slidesToShow: 1,
+				dots: true,
+				arrows: false,
 			}
 		  },
 		  {
