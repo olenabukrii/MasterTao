@@ -25,4 +25,50 @@
 		padding-top: 0;
 		padding-bottom: 5px;
 	  }
+	  div.about-company .company-description p {
+		text-align: justify;
+		font-size: 16px;
+		line-height: 149.5%;
+	  }
+	  div.accordion-questions .accordion-button.collapsed {
+		font-size: 16px;
+		font-weight: 700;
+		padding: 21px 15px 12px 22px;
+	  }
+	  div.accordion-questions .accordion-button:not(.collapsed) {
+		font-size: 16px;
+		font-weight: 700;
+		padding: 21px 32px 8px 24px;
+	  }
+	  div.accordion-questions .accordion-body {
+		font-size: 14px;
+		font-weight: 300;
+		padding: 0 15px 12px 22px;
+	  }
+	  .form-questions .form-title {
+		text-align: center;
+		padding: 38px 15px 8px;
+	  }
+	  .form-questions .form-description {
+		text-align: center;
+		font-weight: 400;
+		padding: 0 15px 23px;
+	  }
+	  .form-questions .input-box {
+		padding-left: 20px;
+		padding-right: 20px;
+	  }
+	  .form-questions input#text {
+		margin-bottom: 0;
+	  }
+	  footer .column-links {
+		display: none;
+	  }
+	  footer .col-lg-3 {
+		margin-bottom: 0;
+		text-align: center;
+	  }
+	  footer .information-column {
+		margin: 0 35px 34px;
+	  }
 }
