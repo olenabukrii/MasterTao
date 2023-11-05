@@ -154,4 +154,48 @@
     font-weight: 700;
     line-height: 124.5%;
   }
+  section.about-company .row {
+	flex-direction: column;
+  }
+  section.about-company .about-company__img-box .about-company__img {
+	width: 277px;
+	height: 308px;
+  }
+  section.about-company .about-company__img-box {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+  }
+  section.questions {
+	margin-top: 100px;
+  }
+  section.questions .row {
+	display: flex;
+	flex-direction: column;
+  }
+  .questions .accordion-questions .accordion-item {
+	max-width: none;
+  }
+  .btn-lg img.icon.questions-icon {
+	margin-left: 47px;
+}
+	section.cooperation .text-content {
+	max-width: 435px;
+  }
+  .cooperation-image {
+	text-align: center;
+  }
+  section.cooperation .img-cooperarion {
+	height: 330px;
+  }
+  .column-links-box {
+	display: none;
+  }
+  footer .col-lg-3 {
+	margin-bottom: 0;
+	text-align: center;
+  }
+  footer .col-lg-3 .information-column {
+	margin: 28px auto;
+  }
   }

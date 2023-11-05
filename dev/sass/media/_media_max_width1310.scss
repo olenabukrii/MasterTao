@@ -4,3 +4,10 @@
 		margin: 0 auto;
 	  }
 }
+
+@media screen and (min-width: 1310px) {
+	section.cooperation .description-content_1 .img-cooperarion {
+		margin-left: 17px;
+		max-width: none;
+	  }
+}

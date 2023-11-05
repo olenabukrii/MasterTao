@@ -1,30 +1,20 @@
 @media screen and (max-width: 1199px) {
-	section.about-company .row {
-		flex-direction: column;
-	  }
 	  section.about-company .company-description {
 		margin-bottom: 25px;
 	  }
-	  section.about-company .about-company__img-box {
-		margin-top: 0;
+	  .about-company__img {
+		width: 470px;
+		height: 501px;
 	  }
-	  section.about-company .about-company__img-box .about-company__img {
-		width: 255px;
-		height: 284px;
-	  }
-	  section.questions {
-		margin-top: 395px;
+	 .questions {
+		margin-top: 150px;
 		margin-bottom: 120px;
 	  }
 	  section.questions .accordion-questions {
 		margin-bottom: 32px;
 	  }
-	  section.questions .row {
-		display: flex;
-		flex-direction: column;
-	  }
 	  section.questions .form-questions {
-		margin-left: 0;
+		margin: 0 auto;
 	  }
 	  section.cooperation .row {
 		padding-left: 10px;
@@ -40,6 +30,7 @@
 		flex-direction: column-reverse;
 		margin-bottom: -28px;
 		margin-top: 60px;
+		align-items: center;
 	  }
 	  section.cooperation .description-content_1 .text-content {
 		margin-top: 63px;
@@ -47,11 +38,8 @@
 	  section.cooperation .description-content_1 .img-cooperarion {
 		margin: -25px auto;
 	  }
-	  section.cooperation .img-cooperarion {
-		height: 220px;
-	  }
+	  
 	  section.cooperation .text-content {
-		max-width: 335px;
 		text-align: justify;
 		font-size: 15px;
 		font-weight: 400;
@@ -60,6 +48,13 @@
 	  section.cooperation .description-content_2 {
 		margin-top: 46px;
 		margin-bottom: 5px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		ul + button {
+			margin-top: 20px;
+		}
 	  }
 	  section.cooperation .description-content_2 .text-content {
 		margin-top: 48px;
@@ -70,5 +65,12 @@
 	  section.cooperation .description-content_2 p {
 		margin-top: -3px;
 		margin-bottom: 10px;
-	  }
+	}
+	.btn-lg.questions-button {
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.btn-lg .icon.questions-icon {
+		margin-left: 15px;
+	}
 }
