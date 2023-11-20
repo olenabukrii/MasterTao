@@ -59,7 +59,7 @@
   .questions .accordion-questions .accordion .accordion-item .accordion-button:not(.collapsed)::after {
 	background-image: url(assets/img/accordion-arrow-orange.svg);
 	background-repeat: no-repeat;
-	transform: rotate(0deg) translate(17px, 2px);
+	transform: rotate(0deg) translate(0, 2px);
   }
   
   .questions .accordion-questions .accordion-body {

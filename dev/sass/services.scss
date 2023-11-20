@@ -4,7 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding: 0 20px 33px;
+	padding: 0 30px 33px;
   }
 
   .services .slide-box:before {
@@ -42,4 +42,5 @@
   .services .slide-title,
   .services .slide-description {
 	margin-bottom: 13px;
+	line-height: 124.5%;
   }

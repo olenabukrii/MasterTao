@@ -21,9 +21,7 @@
 	  }
 	  section.cooperation .btn-lg {
 		width: 100%;
-	  }
-	  section.cooperation .btn-lg .icon {
-		margin: 0 -14px 0 104px;
+		white-space: nowrap;
 	  }
 	  section.cooperation .description-content_1 {
 		display: flex;
@@ -38,7 +36,6 @@
 	  section.cooperation .description-content_1 .img-cooperarion {
 		margin: -25px auto;
 	  }
-	  
 	  section.cooperation .text-content {
 		text-align: justify;
 		font-size: 15px;
@@ -54,6 +51,8 @@
 
 		ul + button {
 			margin-top: 20px;
+			display: flex;
+			justify-content: space-between;
 		}
 	  }
 	  section.cooperation .description-content_2 .text-content {
